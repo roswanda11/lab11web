@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-# <p align="center">Praktikum11 : MAU NYONTEK Y</p>
+# <p align="center">Praktikum11 : MAU NYONTEK LU YAAAAAAAAAAAAAAA</p>
 
 # Instruksi Praktikum
 
