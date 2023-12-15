@@ -38,13 +38,13 @@ Berikut beberapa ekstensi yang perlu diaktifkan:
   -  php-intl ekstensi untuk membuat aplikasi multibahasa;
   -  libcurl (opsional), jika ingin pakai Curl.
 
-## Membuat Folder Baru
+## MEMBUAT FOLDER BARU
 
 Pertama, buatlah folder baru dengan nama lab11_php_ci pada root directory web server(c:xampp/htdocs/Lab11Web)
 
 Kemudian, sebelum memulai menggunakan Framework Codeigniter kita perlu melakukan konfigurasi dan juga mengaktifkan beberapa ekstentsi PHP seperti php-jose, php-mysqlnd, php-mxl, php-intl, dan libcurl.
 
-## Pengaktifan Ekstensi Dengan XAMPP CONTROL PANEL
+## PENGAKTIFAN EKSTENSI DENGAN XAMPP CONTROL PANEL
 
 Untuk dapat mengaktifkannya kalian perlu masuk kedalam control panel xampp kemudian pada bagian apache klik Config > ```PHP (php.ini)``` seperti gambar dibawah.
 
@@ -56,9 +56,14 @@ Setelahnya cukup hilangkan tanda ; pada ekstentsi yang akan diaktifkan seperti g
 
 ## PENGINSTALLAN CODEIGNITER 4
 
-Lakukan download pada codeigniter 4 dengan menggunakan website https://codeigniter.com/download
+Untuk melakukan instalasi codeigniter 4 dapat dilakukan dengan dua cara , yaitu cara manual dan menggunakan composer. pada praktikum ini kita menggunakan cara manual.
 
-![menambahkan_gambar](img/DOWNLOAD%20CODE.png)
+  -  Unduh Codeigniter dari website https://codeigniter.com/download
+  -  Extrak file zip Codeigniter ke directori htdocs/lab11_ci.
+  -  Ubah nama direktory framework-4.x.xx menjadi ci4
+  -  Buka browser dengan alamat http://localhost/Lab11Web/lab11_php_ci/ci4/public/
+
+![image](https://github.com/roswanda11/lab11web/assets/115516632/dce6c640-bbbe-40b6-beb6-f5c2a2201a96)
 
 Pilih codeigniter 4 kemudian tekan download dan tunggu hingga terinstall.
 
