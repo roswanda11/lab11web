@@ -40,7 +40,7 @@ Berikut beberapa ekstensi yang perlu diaktifkan:
 
 ## MEMBUAT FOLDER BARU
 
-Pertama, buatlah folder baru dengan nama lab11_php_ci pada root directory web server(c:xampp/htdocs/Lab11Web)
+Pertama, buatlah folder baru dengan nama ```lab11_php_ci``` pada root directory web server(c:xampp/htdocs/Lab11Web)
 
 Kemudian, sebelum memulai menggunakan Framework Codeigniter kita perlu melakukan konfigurasi dan juga mengaktifkan beberapa ekstentsi PHP seperti php-jose, php-mysqlnd, php-mxl, php-intl, dan libcurl.
 
@@ -71,7 +71,7 @@ Pilih codeigniter 4 kemudian tekan download dan tunggu hingga terinstall.
 
 Codeigniter 4 menyediakan CLI untuk dapat mempermudah proses development. Untuk mengakses CLI bukalah terminal/command prompt. Kemudian arahkan lokasi direktori sesuai dengan direktori kerja project dibuat. (xampp/htdocs/Lab11Web/Lab11_php_ci/ci4)
 
-![menambahkan_gambar](img/CLI.png)
+![Screenshot (572)](https://github.com/roswanda11/lab11web/assets/115516632/fcb87b6e-e614-4c82-89d9-10b684938acc)
 
 Dan masukan perintah dibawah untuk dapat menjalankan guna memanggil CLI Codeigniter.
 
@@ -85,12 +85,11 @@ Codeigniter 4 menyediakan fitur debugging untuk memudahkan developer untuk menge
 
 Maka untuk mengaktifkannya, Pertama ubahlah file env menjadi .env . Kemudian ubah nilai konfigurasi pada environment variable CI_ENVIRONMENT menjadi development seperti gambar berikut.
 
-![menambahkan_gambar](img/UBAH%20ENV.png)
+![Screenshot (574)](https://github.com/roswanda11/lab11web/assets/115516632/aee275f6-9c22-4617-a33e-94a71b38457a)
 
 Selanjutnya hilangkanlah ; pada akhir kode ketika kalian membuka file app/Controller/Home.php seperti berikut.
 
-![menambahkan_gambar](img/MENGHILANGKAN%20KODE%20%3B%20.png)
-
+![Screenshot (575)](https://github.com/roswanda11/lab11web/assets/115516632/29f53499-8c64-4597-92a3-a4cbbd015651)
 
 Dan terjadilah error pada aplikasi yang akan ditampilkan pesan kesalahan seperti berikut.
 
