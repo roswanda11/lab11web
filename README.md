@@ -18,21 +18,41 @@
 
 # <p align="center">Praktikum11 : PHP FRAMEWORK (CODEIGNITER)</p>
 
-## MEMBUAT FOLDER BARU
+# Instruksi Praktikum
 
-Pertama, buatlah folder baru dengan nama Lab11_php_ci pada root directory web server(c:xampp/htdocs/Lab11Web)
+1. Persiapkan text editor misalnya VSCode.
+   
+2. Buat folder baru dengan nama lab11_php_ci pada docroot webserver (htdocs)
+  
+3. Ikuti langkah-langkah praktikum yang akan dijelaskan berikutnya.
+
+# Langkah-langkah praktikum
+
+Sebelum memulai menggunakan Framework codeigniter, perlu dilakukan konfigurasi pada webserver. Beberapa ekstensi PHP perlu di aktifkan untuk kebutuhan pengembangan Codeigniter 4.
+
+Berikut beberapa ekstensi yang perlu diaktifkan:
+
+  -  php-json ekstension untuk bekerja dengan JSON;
+  -  php-mysqlnd native driver untuk MySQL
+  -  php-xml ekstension untuk bekerja dengan XML;
+  -  php-intl ekstensi untuk membuat aplikasi multibahasa;
+  -  libcurl (opsional), jika ingin pakai Curl.
+
+## Membuat Folder Baru
+
+Pertama, buatlah folder baru dengan nama lab11_php_ci pada root directory web server(c:xampp/htdocs/Lab11Web)
 
 Kemudian, sebelum memulai menggunakan Framework Codeigniter kita perlu melakukan konfigurasi dan juga mengaktifkan beberapa ekstentsi PHP seperti php-jose, php-mysqlnd, php-mxl, php-intl, dan libcurl.
 
-## PENGAKTIFAN EKSTENTSI DENGAN XAMPP CONTROL PANEL
+## Pengaktifan Ekstensi Dengan XAMPP CONTROL PANEL
 
-Untuk dapat mengaktifkannya kalian perlu masuk kedalam control panel xampp kemudian pada bagian apache klik Config > PHP.ini seperti gambar dibawah.
+Untuk dapat mengaktifkannya kalian perlu masuk kedalam control panel xampp kemudian pada bagian apache klik Config > ```PHP (php.ini)``` seperti gambar dibawah.
 
-![menambahkan_gambar](img/XAMPP.png)
+![Screenshot (568)](https://github.com/roswanda11/lab11web/assets/115516632/9d68971b-27a8-43ab-b6ac-e21931b10944)
 
 Setelahnya cukup hilangkan tanda ; pada ekstentsi yang akan diaktifkan seperti gambar dibawah. Kemudian simpan kembali file tersebut dan restart Apache web servernya.
 
-![menambahkan_gambar](img/EKSTENTSI.png)
+![Screenshot (569)](https://github.com/roswanda11/lab11web/assets/115516632/1fdebb0c-eca4-40c5-829a-fe03c4326ec2)
 
 ## PENGINSTALLAN CODEIGNITER 4
 
