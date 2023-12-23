@@ -16,13 +16,13 @@
   </tr>
 </table>
 
-# <p align="center">Praktikum11 : PHP FRAMEWORK (CODEIGNITER)</p>
+# <p align="center">Praktikum11 : PHP OOP Lanjutan</p>
 
 # Instruksi Praktikum
 
 1. Persiapkan text editor misalnya VSCode.
    
-2. Buat folder baru dengan nama lab11_php_ci pada docroot webserver (htdocs)
+2. Buat folder baru dengan nama lab11_php_oop_lanjutan pada docroot webserver (htdocs)
   
 3. Ikuti langkah-langkah praktikum yang akan dijelaskan berikutnya.
 
